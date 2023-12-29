@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./logo.svg" type="image/x-icon">
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="header-left"> 
+                    <img id="header-logo-img" src="./logo.svg" alt="LOGO">
+                    <div class="header-location">
+                        <div class="header-locationImage">
+                            <img src="./location.svg" alt="location">
+                        </div>
+                        <div>
+                            <p>Ростов-на-Дону</p>
+                            <p style="color: grey">ул. Ленина, 2Б</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-right"> 
+                    <img src="./whatsapp.png" alt="WhatsApp">
+                    <p>+7(863) 000 00 00</p>
+                    <button>Записаться на прием</button>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <a href="/">О клинике</a>
+                <a href="/">Услуги</a>
+                <a href="/">Специалисты</a>
+                <a href="/">Цены</a>
+                <a href="/">Контакты</a>
+            </div>
+            
+        </nav>
+    </header>
+    <main>
+        <div class="main-block">
+            <img class="mainImageIcon" src="./mainimage.png" alt="Main image icon">
+            <div class="container">
+                <div class="main-block-text">
+                    <h2>Многопрофильная клиника для детей
+                        и взрослых</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Основной блок слайдера -->
+        <div class="slider">
+
+            <!-- Первый слайд -->
+            <div class="item">
+                <div class="leftside-slider">
+                    <div class="textcontent-slider">
+                        <h3>check-up</h3>
+                        <p>Для мужчин</p>
+
+                        <ul>
+                            <li>Гормональний скрининг</li>
+                            <li>Тестостерон</li>
+                            <li>Свободный тестостерон</li>
+                            <li>Глобулин, связывающий половые гормоны</li>
+                        </ul>
+                        <div class="price">
+                            <div class="main-price">Всего 2800</div>
+                            <div class="last-price">3500₽</div>
+                        </div>
+                        <div class="buttonline">
+                            <button>Записаться</button>
+                            <button>Подробнее</button>
+                        </div>
+                    </div>
+                    <img class="sliderImg" src="https://media.tproger.ru/uploads/2020/07/field.jpg">
+                </div>
+            </div>
+        
+            <!-- Второй слайд -->
+            <div class="item">
+            <img src="https://media.tproger.ru/uploads/2020/07/rose.jpg">
+            </div>
+        
+            <!-- Третий слайд -->
+            <div class="item">
+            <img src="https://media.tproger.ru/uploads/2020/07/leaf.jpg">
+            </div>
+        
+            <!-- Кнопки-стрелочки -->
+            <a class="previous">&#10094;</a>
+            <a class="next">&#10095;</a>
+        </div>
+    </main>
+</body>
+</html>
